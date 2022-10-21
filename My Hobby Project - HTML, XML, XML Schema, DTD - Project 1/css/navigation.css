@@ -1,0 +1,25 @@
+.navigation {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+.navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.navigation a {
+  text-decoration: none;
+}
+.navigation a:hover {
+  text-decoration: underline;
+}
+.navigation___logo {
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=navigation.css.map */

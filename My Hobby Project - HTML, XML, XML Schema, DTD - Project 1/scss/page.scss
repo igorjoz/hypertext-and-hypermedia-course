@@ -1,0 +1,17 @@
+.page {
+    &__header-element {
+        background-color: greenyellow;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__main-header {
+        font-size: 2.2rem;
+        // text-transform: uppercase;
+        padding: 15px;
+    }
+
+    &__h1 {
+        font-size: 1.8rem;
+    }
+}

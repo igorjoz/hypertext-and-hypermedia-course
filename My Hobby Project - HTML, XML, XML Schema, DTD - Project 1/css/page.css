@@ -1,0 +1,16 @@
+.page__header-element {
+  background-color: greenyellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.page__main-header {
+  font-size: 2.2rem;
+  padding: 15px;
+}
+.page__h1 {
+  font-size: 1.8rem;
+}/*# sourceMappingURL=page.css.map */
