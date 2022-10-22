@@ -1,17 +1,28 @@
-.page {
-    &__header-element {
-        background-color: greenyellow;
-        display: flex;
-        justify-content: center;
-    }
+@import './variables';
 
-    &__main-header {
-        font-size: 2.2rem;
-        // text-transform: uppercase;
-        padding: 15px;
-    }
+html {
+    font-size: 18px;
+}
 
-    &__h1 {
-        font-size: 1.8rem;
+body {
+    font-family: $font-sans-serif;
+    color: $default-font-color;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
     }
 }
